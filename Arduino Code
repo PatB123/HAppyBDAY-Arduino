@@ -1,0 +1,66 @@
+#define D 294
+#define E 329
+#define F 349
+#define G 392
+#define A 440
+#define B 493
+#define C2 523
+#define D2 587
+int buzzer = 8;
+
+
+void setup() {
+  pinMode(buzzer, OUTPUT); 
+}
+
+void loop(){
+  tone(buzzer, D);
+  delay(375);
+  tone(buzzer, D);
+  delay(375);
+  tone(buzzer,E);
+  delay(750);
+  tone(buzzer, D);
+  delay(750);
+  tone(buzzer, G);
+  delay(750);
+  tone(buzzer, F);
+  delay(1500);
+  tone(buzzer, D);
+  delay(375);
+  tone(buzzer, D);
+  delay(375);
+  tone(buzzer, E);
+  delay(750);
+  tone(buzzer, D);
+  delay(750);
+  tone(buzzer, A);
+  delay(750);
+  tone(buzzer, G);
+  delay(750);
+  tone(buzzer, D);
+  delay(375);
+  tone(buzzer, D);
+  delay(375);
+  tone(buzzer, D2);
+  delay(750);
+  tone(buzzer, G);
+  delay(750);
+  tone(buzzer, F);
+  delay(750);
+  tone(buzzer, E);
+  delay(750);
+  tone(buzzer, C2);
+  delay(375);
+  tone(buzzer, C2);
+  delay(375);
+  tone(buzzer, B);
+  delay(750);
+  tone(buzzer, G);
+  delay(750);
+  tone(buzzer, A);
+  delay(750);
+  tone(buzzer, G);
+  delay(2250);
+ 
+}
